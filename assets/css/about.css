@@ -1,0 +1,18 @@
+   /* main about */
+   .article--summary__main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+  }
+
+  .article--summary center{
+     display: flex;
+     justify-content: center; 
+  }
+
+  .center{
+      display: flex;
+      justify-content: center;
+  }
+  .debug{
+    border:3px solid brown;
+  }
