@@ -1,8 +1,16 @@
    /* main about */
    .article--summary__main{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
+    row-gap: 32px;
   }
+  .article--summary__hobbies{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 16px;
+    column-gap: 22px;
+}
+
 
   .article--summary center{
      display: flex;
@@ -12,7 +20,33 @@
   .center{
       display: flex;
       justify-content: center;
+      margin-bottom: 16px;
   }
   .debug{
     border:3px solid brown;
+  }
+
+  .topbox .boxskills .language{
+    margin: 0;
+  }
+  /* .topbox .boxskills{
+     position: relative;
+     left: 44.8px;
+  } */
+  .topbox{
+      display: flex;
+      column-gap: 19px;
+  }
+
+  .icontainer .color--icon:hover{
+      color: var(--pink-400);
+  }
+  .icon-check:hover{
+      color: var(--pink-400);
+  }
+  .article--main {
+    background-color: var(--white);
+  }
+  .intro{
+      margin-bottom: 48px;
   }
