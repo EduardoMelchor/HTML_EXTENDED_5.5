@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(304px, 1fr));
+    column-gap: 1.62rem;
+}
+
+.form-register{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, max(299px, 1fr));
+    padding: 5px;
+}
+
+.without-padding{ 
+    /* margin: 0; */
+    padding: 0;
+}
+
+.form-register .size{
+    font-family: var(--font-primary);
+    font-size: 12px;
+}
+
+#names{
+    border-radius: 6px;
+    border-color: 1px black;
+    border-width: 0.2px;
+}
