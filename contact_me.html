@@ -16,75 +16,95 @@
             </a>
             <ul class="navbar--links list-style-none">
               <li>
-                <a href="#" class="link text-sm">Articles</a>
+                <a href="/home.html" class="link text-sm">Articles</a>
               </li>
               <li>
-                <a href="#" class="link text-sm">Portafolio</a>
+                <a href="/portafolio.html" class="link text-sm">Portafolio</a>
               </li>
               <li>
-                <a href="#" class="link text-sm">About</a>
+                <a href="/about.html" class="link text-sm">About</a>
               </li>
               <li>
-                <a href="#" type="button" class="button button--primary button--sm text-decoration-none">Contact me</a>
+                <a href="/contact_me.html" type="button" class="button button--primary button--sm text-decoration-none">Contact me</a>
               </li>
             </ul>
           </nav>
         </div>
     </header>
-        <section class="section-md">
-            <div class="container-md "> <!-- ancho del bloque-->
-            <h2 class="head-xl medium mb-1">
-                <strong class = "center">Contact Me</strong>
-            </h2>
-            <p class="description">
-                <center> Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</center>
-            </p>
-            </div>
-        </section>
-        <main class="container-sm without-padding ">
-            <div class="form-info">
-                <div class = "form-register">
-                    <p class="size"><label for="first">FIRST NAME:</label></p>
-                    <input type="text" name="first" id="names" placeholder=" Eduardo">
-                </div>
-                <div class = "form-register">
-                    <p class="size"><label for="first">LAST NAME:</label></p>
-                    <input type="text" name="last" id="names" placeholder=" Melchor">
-                </div>
-                <div class = "form-register">
-                    <p class="size"><label for="first">EMAIL:</label></p>
-                    <input type="email" name="name" id="names" placeholder=" mbe.ed@gmail.com">
-                </div>
-                <div class = "form-register">
-                    <p class="size"><label for="first">COMPANY:</label></p>
-                    <input type="text" name="name" id="names" placeholder=" Company SAC">
-                </div>
-                <div class = "form-register">
-                    <p class="size"><label for="first">PHONE:</label></p>
-                    <input type="number" name="name" id="names" placeholder=" 92345678">
-                </div>
-                <div class = "form-register">
-                    <p class="size"><label for="first"> COUNTRY:</label></p>
-                    <select name="select" id="names">
-                    <option value="se">select one option </option>Jenny Doll
-                </select>
-                </div>
-            </div>
-            <div>
-              <p>HOW CAN I HELP YOU</p>
-              <div>
-                <label><input type="checkbox" id="box1" value="first_checkbox"> Job Offer</label>
-                <p>If you are looking to expand your team</p>
-              </div>
-              <div>
-                <label><input type="checkbox" id="box1" value="first_checkbox"> Project Offer</label>
-                <p>If you are looking to expand your team</p>
-              </div>
-              <div>
-                <label><input type="checkbox" id="box1" value="first_checkbox"> Collaboration</label>
-                <p>If you are looking to expand your team</p>
-              </div>
-            </div>
-        </main>
+    <section class="section-md">
+      <div class="container-md "> <!-- ancho del bloque-->
+        <h2 class="head-xl medium mb-1">
+          <strong class = "center">Contact Me</strong>
+        </h2>
+        <p class="description">
+          <center> Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</center>
+        </p>
+      </div>
+    </section>  
+
+    <main class="container-sm without-padding ">
+      <form action="">
+        <div class="form-info">
+          <div class = "form-register">
+            <p class="size"><label for="first">FIRST NAME:</label></p>
+            <input type="text" name="first" id="names" placeholder=" Eduardo" required>
+          </div>
+          <div class = "form-register">
+            <p class="size"><label for="first">LAST NAME:</label></p>
+            <input type="text" name="last" id="names" placeholder=" Melchor" required>
+          </div>
+          <div class = "form-register">
+            <p class="size" ><label for="first">EMAIL:</label></p>
+            <input type="email" name="name" id="names" placeholder=" mbe.ed@gmail.com" required title="Este campo es obligatorio!!!">
+          </div>
+          <div class = "form-register">
+            <p class="size"><label for="first">COMPANY:</label></p>
+            <input type="text" name="name" id="names" placeholder=" Company SAC">
+          </div>
+          <div class = "form-register">
+            <p class="size"><label for="first">PHONE:</label></p>
+            <input type="number" name="name" id="names" placeholder=" 92345678" required>
+          </div>
+          <div class = "form-register">
+            <p class="size"><label for="first"> COUNTRY:</label></p>
+            <select name="select" id="names">
+              <option selected>select one option</option>
+              <optgroup label="Only one option">
+                <option value="1">Peru</option>
+                <option value="2">Colombia</option>
+                <option value="3">Canada</option>
+                <option value="4">Brasil</option>
+                <option value="5">Venezuela</option>
+              </optgroup>
+            </select>
+          </div>
+        </div>
+
+        <div class="select-box">
+          <p>HOW CAN I HELP YOU</p>
+          <div>
+            <label><input type="checkbox" id="box1" value="first_checkbox" >Job Offer</label>
+            <p class="informative">If you are looking to expand your team</p>
+          </div>
+          <div>
+            <label><input type="checkbox" id="box1" value="first_checkbox" >Project Offer</label>
+            <p class="informative">If you are looking to expand your team</p>
+          </div>
+          <div>
+            <label><input type="checkbox" id="box1" value="first_checkbox" >Collaboration</label>
+            <p class="informative">If you are looking to expand your team</p>
+          </div>
+          <div>
+            <label><input type="checkbox" id="box1" value="first_checkbox">Other</label>
+          </div>
+            
+            <!-- <a href="www.zegmel.com" type="submit" class="button button--primary button--sm text-decoration-none">send</a> -->
+        </div>
+        <p class="center button button--primary button--sm text-decoration-none send" >
+          <input class="send" type="submit" value="enviar">
+        </p>
+        
+      </form>  
+    </main>
 </body>
 </html>

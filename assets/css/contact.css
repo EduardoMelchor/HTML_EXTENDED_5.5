@@ -31,3 +31,27 @@
     border-color: 1px black;
     border-width: 0.2px;
 }
+
+::placeholder{
+    color: var(--gray-300);
+}
+.select-box{
+    padding-top: 32px;
+}
+
+#box1{
+    margin-right:10px ;
+}
+
+.informative{
+    color: var(--pink-500);
+    right: 16px;
+    padding-left: 24px;
+}
+
+.send .center{
+    background-color: var(--pink-500);
+}
+::placeholder{
+    font-size: 12px;
+}
